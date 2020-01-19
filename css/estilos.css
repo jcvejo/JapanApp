@@ -1,0 +1,89 @@
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+section{
+background-color: white;
+display: table;
+width: 60%;
+height: 400px;
+position: relative;
+left:20%;
+top:60%;
+border-radius: 5px 5px 5px 5px;
+}
+blockquote{
+  width:100%;
+  height: 20%;
+  font-weight: bold;
+}
+p{
+  font-size: 100px;
+}
+cite{
+  font-size: 1rem;
+}
+article{
+width: 100%;
+display: flex;
+justify-content: center;
+position: relative;
+top:50%;
+}
+h2{
+  display:none;
+}
+.botonKana{
+  margin-right: 10%;
+margin: 0px;
+padding: 0px;
+height: 70px;
+flex:1;
+}
+.botonCitar{
+width: 70px;
+height: 70px;
+  flex:1;
+}
+.contenedor{
+position: relative;
+top:5%;
+}
+.oculto{
+display:none;
+}
+.botones{
+  display:flex;
+  justify-content: center;
+}
+@media (max-width:600px){
+
+  p{
+    font-size: 50px;
+  }
+section{
+	width:100%;
+left:5%;
+height:350px;
+}
+h1{
+  display:none;
+}
+h2{
+  display:block;
+}
+}
+@media only screen and (min-device-width: 600px) and (max-device-width: 900px) {
+body{
+  overflow:visible;
+}
+section{
+left:5%;
+width:90%;
+height:300px;
+}
+}

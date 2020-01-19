@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta name="author" content="Juan Carlos Vejo">
+  <meta name="description" content="文字語彙漢字勉強サイト">
+  <meta name="keywords" content="日本語、文字語彙、漢字、能力試験、勉強、暗記">
+  <meta name="language" content="JP">
+  <meta name="revised" content="14/10/2019">
+  <meta name="robots" content="index,follow" />
+  <meta name="Classification" content="Education">
+  <meta name="og:title" content="JapanApp"/>
+  <meta name="og:type" content="Japanese language"/>
+  <meta name="og:url" content="http://japanapp.000webhostapp.com"/>
+  <meta name="og:image" content="img/kamonohashi.png"/>
+  <meta name="og:site_name" content="JapanApp"/>
+  <meta name="og:description" content="文字語彙漢字勉強サイト"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>JapanApp</title>
+<noscript>JavaScriptが無効になっているので、有効に設定してください</noscript>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src='js/funciones.js'></script>
+<link href='img/kamonohashi.png' rel='image_src' />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <h1 class='display-3 text-white text-center'><img src='img/kamonohashi.png' alt='icono Kamonohashi' width='50' class='example-popover' data-toggle="popover" title="カモノハシ" data-content="名称: JapanApp</br>創造者: Juan Carlos Vejo</br>最終版: 1.0.0"/>文字語彙漢字勉強</h1>
+  <h2 class='text-white text-center'><img src='img/kamonohashi.png' alt='icono Kamonohashi' width='50' class='example-popover' data-toggle="popover" title="カモノハシ" data-content="名称: JapanApp</br>創造者: Juan Carlos Vejo</br>最終版: 1.0.0"/>文字語彙漢字勉強</h2>
+ <div class='botones'>
+  <button type="button"  class="btn btn-info">
+  言葉量<span id='cantTotal' class="badge badge-light">0</span>
+</button>
+<button type="button" class="btn btn-danger">
+  復習文<span id='cantLeidas' class="badge badge-light">0</span>
+</button>
+</div>
+<div id='contenedor' class="contenedor container-fluid">
+    <section class='row'>
+  <blockquote class='quote text-center text-primary'><p></p><br>
+<cite class='text-muted oculto'></cite>
+<b class='text-muted oculto'></b>
+</blockquote>
+<article><input type='button' class="botonKana btn btn-info"id='kana' value='仮名'/><input type='button'class='botonCitar btn btn-danger' id='boton' value='引用'/></article>
+</section>
+</div>
+</body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-46315821-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-46315821-7');
+</script>
+</html>
